@@ -8,6 +8,9 @@ import base64
 
 
 st.title('Simple Covid-19 Tracker')
+st.write("""
+Made with love by [Shalash](https://twitter.com/ShalashOfficial)
+""")
 st.sidebar.header('User Input Features')
 country_enter = st.sidebar.text_input('Name of Country', 'Egypt').title()
 

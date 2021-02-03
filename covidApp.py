@@ -45,9 +45,6 @@ try:
     st.write(f'This table contains Covid-19 data of {country_enter}')
     st.dataframe(data[::-1])
 
-# except Exception: \\\\\\\\\\\\\\\\\\\\\\////////////////\\\\\\\\\\\\\\\\\\\\\\\\
-#     st.info(f'No data for {country_enter}')
-
     # Function to save the data generated in csv or txt file
     def filedownload(df, dl_type, name):
         csv = df.to_csv(index=False)
